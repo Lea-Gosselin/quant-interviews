@@ -1,10 +1,7 @@
 # Trainings for quantitative interviews
 
 ## Pre-requisites
-- Python >= 3.9
-
-## Setup
-It is recommended to use a virtual environment.
+It is recommended to use Python 3.13 and a virtual environment.
 
 ### 1. Create a virtual environment
 ```bash
@@ -16,6 +13,18 @@ source venv/bin/activate
 ```bash
 python -m pip install -r requirements.txt
 ```
+
+## Flash cards
+### Useful formulas
+
+Number of trailing zeros in $n!$:
+```math
+= \sum_{i=1}{N} frac{n!}{5^i}
+\qquad\n
+i s.t. 5^i \leq n
+```
+
+
 
 References
 Zhou, X., & Jiu, B. (2008). A practical guide to quantitative finance interviews.
